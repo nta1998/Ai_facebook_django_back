@@ -144,7 +144,7 @@ class postcrudView(APIView):
         Handle POST requests to create a new Task object
         """
         data = (request.data)
-        openai.api_key = "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"
+        openai.api_key = "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"
         response = openai.Completion.create(
             model="text-davinci-003",
             prompt=f'Write me a post about {data["post"]} in {data["line"]} line long ',
