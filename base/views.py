@@ -110,7 +110,7 @@ class webactionView(APIView):
         def post_m(post, email, password):
             option = Options()
             option.add_argument('--disable-notifications')
-            openai.api_key = "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"
+            openai.api_key = "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"
             # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),chrome_options=option)
             driver = webdriver.Chrome(chrome_options=option)
             # executable_path=ChromeDriverManager().install(), chrome_options=option)
